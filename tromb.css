@@ -15,7 +15,7 @@ body {
   display: inline;
   list-style: none;
   padding-left: 125px;
-
+  text-decoration: none;
 }
 
 #nav-bar{
@@ -114,7 +114,6 @@ input, button {
   margin-top: 100px;
 }
 
-
 .block-cost{
   border:1px solid black;
   width: 300px;
@@ -148,4 +147,34 @@ h3{
 .cost{
   font-weight: 600;
   font-size: 25px;
+}
+
+/*footer anding*/
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.footer{
+  background-color:#DDDDDD;
+  width: 1000px;
+  text-align: right;
+ border-radius: 5px;
+}
+
+
+.title-footer {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items:center;
+  margin-right: 20px; 
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.and{
+  font-size: small;
+  margin-right: 5px;
 }

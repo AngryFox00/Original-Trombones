@@ -12,22 +12,22 @@
         <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="logo-image" id="header-img">
           <nav id="nav-bar">
             <ul class="nav-bar-top">
-            <li class="nav-link">Features</li>
-            <li class="nav-link">How It Works</li>
-            <li class="nav-link">Pricing</li>
+            <li href="#Features" class="nav-link"><a href="#Features">Features</a></li>
+            <li href="#How_It_Works" class="nav-link"><a href="#How_It_Works">How It Works</a></li>
+            <li href="#Pricing" class="nav-link"><a href="#Pricing">Pricing</a></li>
             </ul>
           </nav>
       </section>
-      <form id="form">
+      <form  id="form">
         <div class="title-started">
           <p class="title">Handcrafted, home-made masterpieces</p>
           <input name="email" type="email" id="email" placeholder="Enter your email address"></input>
-          <button type="submit" id="submit" class="started-button">GET STARTED</button>
+          <button action="https://www.freecodecamp.com/email-submit"  type="submit" id="submit" class="started-button">GET STARTED</button>
         </div>
         </form>
     </header>
     <main>
-      <section class="block-one">
+      <section id="How_It_Works" class="block-one">
         <div class="grid-container">
           <div class="image">
             <img src="https://tygjaceleczftbswxxei.supabase.co/storage/v1/object/public/solnce/icons/flame.png" alt="img-fire" class="icon">
@@ -52,12 +52,12 @@
           </div>
         </div>
     </section>
-    <section class="block-video">
+    <section id="Features"class="block-video">
         <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=nJ9h6jNmzoYKnKCC" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowfullscreen id="video" class="video"></iframe>
       </section>
-      <section class="price" >
+      <section id="Pricing"class="price" >
         <div class="block-cost" id="price-600">
           <h3 class="title-price">TENOR TROMBONE</h3>
           <p class="cost">$600</p>
@@ -67,7 +67,7 @@
             Lorem ipsum dolor.<br>
             Lorem ipsum.
           </p>
-          <input type="submit" value="SELECT" class="button-price"></input>
+          <input id="submit" type="submit" value="SELECT" class="button-price"></input>
         </div>
 
         <div class="block-cost" id="price-900">
@@ -79,7 +79,7 @@
             Lorem ipsum dolor.<br>
             Lorem ipsum.
           </p>
-          <input type="submit" value="SELECT" class="button-price"></input>
+          <input id="submit" type="submit" value="SELECT" class="button-price"></input>
         </div>
 
         
@@ -93,9 +93,17 @@
             Lorem ipsum dolor.<br>
             Lorem ipsum.
           </p>
-          <input type="submit" value="SELECT" class="button-price"></input>
+          <input id="submit" type="submit" value="SELECT" class="button-price"></input>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer">
+        <p class="title-footer">Privacy</p>
+        <p class="title-footer">Terms</p>
+        <p class="title-footer">Contact</p>
+        <p class="and">Copyright 2023, Original Trombones</p>
+      </div>
+    </footer>
   </body>
 </html>
