@@ -74,26 +74,37 @@ input, button {
   margin: 5px; 
 }
 /* Main section block 1*/
-main{
-  display: flex;
-  
-}
+
 .icon{
   width: 55px;
   height: 55px;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
-  grid-template-columns: 0.2fr 0.8fr;
+  grid-template-columns: 60px 730px;
   place-items: center;
-  margin: 0 auto;
-  row-gap: 1.5rem;
-  padding-top: 90px;
+  justify-content: center;
+  padding-top: 70px;
+  column-gap: 40px;
+  row-gap: 30px ;
 }
+/* Main section block */
 
 .video{
   width: 560px;
   height: 315px;
+}
+/*
+
+
+
+
+
+
+.section-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
