@@ -10,6 +10,7 @@ body {
   background-color: #EEEEEE;
 }
 /*NAV-BAR*/
+
 .nav-bar-top li{
   display: inline;
   list-style: none;
@@ -21,6 +22,8 @@ body {
   position: absolute;
   top:0px;
   right: 140px;
+  left: unset;
+  
 
 }
 
@@ -89,22 +92,60 @@ input, button {
   column-gap: 40px;
   row-gap: 30px ;
 }
-/* Main section block */
+/* Main section block 2*/
 
 .video{
   width: 560px;
   height: 315px;
 }
-/*
 
-
-
-
-
-
-.section-video{
+.block-video{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 60px;
 }
 
+/*price section*/
+.price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+.block-cost{
+  border:1px solid black;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.button-price{
+  background-color: #F1C40F;
+  border: none;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+h3{
+  background-color:#DDDDDD;
+  margin-top:0;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.lore-ipsum{
+  line-height: 1.7;
+}
+
+.cost{
+  font-weight: 600;
+  font-size: 25px;
+}
